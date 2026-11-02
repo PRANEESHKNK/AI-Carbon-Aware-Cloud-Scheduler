@@ -1,0 +1,48 @@
+[33mb3e3850[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial CarbonPilot AI baseline
+ .gitignore                                         |      12 [32m+[m
+ .streamlit/config.toml                             |       7 [32m+[m
+ app.py                                             |     849 [32m+[m
+ cloudsim-engine/pom.xml                            |      40 [32m+[m
+ .../main/java/com/carbonpilot/CloudSimRunner.java  |      51 [32m+[m
+ data/preprocessed/carbon_intensity.csv             |   38977 [32m+[m
+ data/preprocessed/region_config.csv                |    1161 [32m+[m
+ data/preprocessed/workload.csv                     | 7200799 [32m+++++++++++++++++[m
+ data/processed/carbon_intensity.csv                |   38977 [32m+[m
+ data/processed/region_config.csv                   |    1161 [32m+[m
+ data/processed/workload.csv                        | 7010741 [32m++++++++++++++++[m
+ data/raw/Cell_c.csv                                | 7200799 [32m+++++++++++++++++[m
+ data/raw/history.csv                               |   38977 [32m+[m
+ main.py                                            |       0
+ models/carbon_model.pkl                            |     Bin [31m0[m -> [32m14049969[m bytes
+ notebooks/01_data_analysis.ipynb                   |    1170 [32m+[m
+ notebooks/02_data_preprocessing.ipynb              |    1317 [32m+[m
+ notebooks/03_carbon_prediction.ipynb               |     986 [32m+[m
+ notebooks/04_scheduler_integration.ipynb           |    6931 [32m+[m
+ requirements.txt                                   |     113 [32m+[m
+ results/ai_scheduler_ranked_regions.csv            |    1161 [32m+[m
+ results/ai_scheduler_results.csv                   |    1161 [32m+[m
+ results/cloudsim_results.csv                       |   20001 [32m+[m
+ results/comparison_carbon_emissions_g.png          |     Bin [31m0[m -> [32m16020[m bytes
+ results/comparison_energy_kwh.png                  |     Bin [31m0[m -> [32m19628[m bytes
+ results/comparison_execution_cost.png              |     Bin [31m0[m -> [32m15924[m bytes
+ results/comparison_execution_time.png              |     Bin [31m0[m -> [32m16600[m bytes
+ results/dashboard_predictions.csv                  |      11 [32m+[m
+ results/notebook4_ranked_candidates.csv            |    1161 [32m+[m
+ results/predicted_regions.csv                      |     117 [32m+[m
+ results/scheduler_comparison.csv                   |       3 [32m+[m
+ results/workload_simulation_comparison.csv         |       3 [32m+[m
+ results/workload_task_results.csv                  |   20001 [32m+[m
+ src/__init__.py                                    |       0
+ src/cloudsim/__init__.py                           |       0
+ src/cloudsim/carbon_prediction.py                  |      97 [32m+[m
+ src/cloudsim/cloudsim_bridge.py                    |      56 [32m+[m
+ src/cloudsim/data_inspection.py                    |      70 [32m+[m
+ src/cloudsim/evaluation.py                         |      60 [32m+[m
+ src/cloudsim/preprocessing.py                      |     140 [32m+[m
+ src/cloudsim/scheduler.py                          |      86 [32m+[m
+ src/cloudsim/simulation.py                         |     298 [32m+[m
+ src/plot_cloudsim_results.py                       |      48 [32m+[m
+ src/plot_scheduler_comparison.py                   |      33 [32m+[m
+ src/run_ai_scheduler.py                            |     129 [32m+[m
+ src/time_scheduler.py                              |      69 [32m+[m
+ 46 files changed, 21587773 insertions(+)

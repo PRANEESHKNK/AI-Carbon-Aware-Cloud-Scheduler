@@ -1,0 +1,11 @@
+data/raw/Cell_c.csv
+data/preprocessed/workload.csv
+data/processed/workload.csv
+venv_windows/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+cloudsim-engine/target/
+cloudsim-engine/input/
+cloudsim-engine/output/
